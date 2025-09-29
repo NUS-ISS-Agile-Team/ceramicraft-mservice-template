@@ -15,7 +15,7 @@ var (
 	clientSyncOnce sync.Once
 )
 
-func GetUserServiceClient(config *GRpcClientConfig) (demopb.DemoServiceClient, error) {
+func GetDemoClient(config *GRpcClientConfig) (demopb.DemoServiceClient, error) {
 	clientSyncOnce.Do(func() {
 		opts := []grpc.DialOption{
 			grpc.WithTransportCredentials(insecure.NewCredentials()),
