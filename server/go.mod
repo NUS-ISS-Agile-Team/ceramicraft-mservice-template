@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/common v0.0.0-20250928082159-4283b8149a75
-	github.com/NUS-ISS-Agile-Team/ceramicraft-user-mservice/common v0.0.0-20250928025834-45b508404058
+	github.com/NUS-ISS-Agile-Team/ceramicraft-user-mservice/common v0.0.0-20251001134041-eace300430f3
 	github.com/gin-gonic/gin v1.11.0
 	github.com/spf13/viper v1.21.0
 	github.com/stretchr/testify v1.11.1
