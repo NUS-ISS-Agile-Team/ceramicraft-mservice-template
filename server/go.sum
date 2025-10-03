@@ -4,8 +4,8 @@ github.com/KyleBanks/depth v1.2.1 h1:5h8fQADFrWtarTdtDudMmGsC7GPbOAu6RVB3ffsVFHc
 github.com/KyleBanks/depth v1.2.1/go.mod h1:jzSb9d0L43HxTQfT+oSA1EEp2q+ne2uh6XgeJcm8brE=
 github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/common v0.0.0-20250928082159-4283b8149a75 h1:Q+UxVwjyZOwsY80POUkRD0Oo5YfYnwQi80zub4EY58c=
 github.com/NUS-ISS-Agile-Team/ceramicraft-mservice-template/common v0.0.0-20250928082159-4283b8149a75/go.mod h1:YeSX+xFnzyEChunFBniBCUV7nMKepnp2gHXFOkqor+8=
-github.com/NUS-ISS-Agile-Team/ceramicraft-user-mservice/common v0.0.0-20250928025834-45b508404058 h1:3jvDYhmTTMaHGX2z1mIzO13NKppGRsRYmRwdc4CO2HU=
-github.com/NUS-ISS-Agile-Team/ceramicraft-user-mservice/common v0.0.0-20250928025834-45b508404058/go.mod h1:37OvOYo/KVtH7LdbUnKLitzsC6qE6LCGF6sgaFHzE7E=
+github.com/NUS-ISS-Agile-Team/ceramicraft-user-mservice/common v0.0.0-20251001134041-eace300430f3 h1:Q/BSHYE0TbmfVWUgdlryruBdeweLtA9Q/UJWY0bBr8g=
+github.com/NUS-ISS-Agile-Team/ceramicraft-user-mservice/common v0.0.0-20251001134041-eace300430f3/go.mod h1:37OvOYo/KVtH7LdbUnKLitzsC6qE6LCGF6sgaFHzE7E=
 github.com/PuerkitoBio/purell v1.1.1 h1:WEQqlqaGbrPkxLJWfBwQmfEAE1Z7ONdDLqrN38tNFfI=
 github.com/PuerkitoBio/purell v1.1.1/go.mod h1:c11w/QuzBsJSee3cPx9rAFu61PvFxuPbtSwDGJws/X0=
 github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 h1:d+Bc7a5rLufV/sSk/8dngufqelfh6jnri85riMAaF/M=
