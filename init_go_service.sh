@@ -7,7 +7,7 @@ fi
 mic_short_name=$1
 target_dir="../ceramicraft-${mic_short_name}-mservice/"
 echo $target_dir
-cp -r ./common "$target_dir"
+cp -r common "$target_dir"
 echo "copy common to $target_dir"
 cp -r client $target_dir
 echo "copy client to $target_dir"
