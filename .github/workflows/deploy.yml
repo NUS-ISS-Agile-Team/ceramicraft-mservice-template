@@ -74,7 +74,7 @@ jobs:
         run: |
           docker stop ceramicraft-mservice-template || true
           docker rm ceramicraft-mservice-template || true
-          docker run -d --name ceramicraft-mservice-template --network ceramicraft-network --env-file env-file "${DOCKER_HUB_USERNAME}/ceramicraft-mservice-template:${{ github.event.inputs.version }}"
+          docker run -d --name ceramicraft-mservice-template --network ceramicraft-network --env-file env-file -v /home/ubuntu/logs:/app/logs "${DOCKER_HUB_USERNAME}/ceramicraft-mservice-template:${{ github.event.inputs.version }}"
   restart:
     if: ${{ github.event.inputs.command == 'restart' }}
     runs-on: self-hosted
@@ -101,4 +101,4 @@ jobs:
         run: |
           docker stop ceramicraft-mservice-template || true
           docker rm ceramicraft-mservice-template || true
-          docker run -d --name ceramicraft-mservice-template --network ceramicraft-network --env-file env-file "${DOCKER_HUB_USERNAME}/ceramicraft-mservice-template:${{ github.event.inputs.version }}"
+          docker run -d --name ceramicraft-mservice-template --network ceramicraft-network --env-file env-file -v /home/ubuntu/logs:/app/logs "${DOCKER_HUB_USERNAME}/ceramicraft-mservice-template:${{ github.event.inputs.version }}"
